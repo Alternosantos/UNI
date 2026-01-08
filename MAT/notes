@@ -1,0 +1,57 @@
+Caracteristrica = C(A)
+numero de pivo = C(A) depois de descalonar
+
+rank() 
+
+rref()
+
+pivos sao os numeros numa limha diagonal de uma matiz 
+
+c(A|B) ampliada
+
+para uma Caracteristrica ser impossivel se a c(A|B) > c(A)
+e e possivel se c(A|B) == C(A)
+
+
+
+se z nao tiver ocupado e possivel indeterminado
+
+determidado se C(A) = n 
+indeterminado se C(A) < n
+     
+representa sistemas = ultima coluna existe 
+
+discutir sistemas = dizer se vai ser determidado / indeterminado 
+
+CONTAR PIVOS 
+
+
+a linha de zeros nao da indeterminaçao	
+
+---------------------------------
+1 2 3                           |
+2 5 8				|
+1 4 7				|
+				|
+l2 = l2 -2l1 / l3 = l3 - l1	|
+				|
+1 2 3 				|
+0 1 2				|
+0 2 7				|
+				|
+l3 = l3 -2l2			|
+				|
+1 2 3 				|
+0 1 2				|
+0 0 3				|
+---------------------------------
+
+--------------------------------|
+A = 1 2  B = 2 0
+    3 4      1 3
+
+[AB] = 1*2 + 2*0 + 1*1 + 2*3
+       3*2 + 4*0 + 3*1 + 4*3
+
+[AB] = 
+
