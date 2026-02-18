@@ -2,8 +2,10 @@ public class Member
 {
     public  int Id { get; set; }
     public  string Name { get; set; }
+    public int IdNumber { get; set; }
     public List<Loan> Loans { get; set; } = new();
     public bool IsActive { get; set; }  
+    
         public void BorrowBook(Book book, DateTime loanDate)
         {
             if (book.Available)

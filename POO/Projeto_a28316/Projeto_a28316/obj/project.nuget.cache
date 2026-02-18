@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5yOJVsB0Bwtdv9Hbawk1yNF8iLY35gIjicmONL4qthSFLuAP6UqfHkMU9gzlPJ6QEiUzSYu4IuU+Q6oeKnZp+Q==",
+  "dgSpecHash": "k6UWo1KLZ0I=",
   "success": true,
   "projectFilePath": "/home/someone/Desktop/UNI/POO/Projeto_a28316/Projeto_a28316/Projeto_a28316.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,10 @@
     "/home/someone/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/home/someone/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/home/someone/.nuget/packages/system.text.json/8.0.4/system.text.json.8.0.4.nupkg.sha512",
-    "/home/someone/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
+    "/home/someone/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
+    "/home/someone/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/someone/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/someone/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.22/microsoft.netcore.app.host.linux-x64.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

@@ -27,8 +27,8 @@ private void Pause()
             Header("Member Management");
 
             Console.WriteLine("1. Register Member");
-            Console.WriteLine("2. Deactivate Member");
-            Console.WriteLine("3. Search Member by Name");
+            Console.WriteLine("2. Deactivate / Activate Member");
+            Console.WriteLine("3. Search Member by ID Number or Name");
             Console.WriteLine("4. List Members");
             Console.WriteLine("5. Back to Main Menu\n");
             Console.Write("Select an option: ");
@@ -75,6 +75,7 @@ private void Pause()
         var member = new Member
         {
             Name = memberName,
+            IdNumber = _library.RandomIdNumber(),
             IsActive = true
         };
 
@@ -83,25 +84,32 @@ private void Pause()
         Console.WriteLine("\nMember registered successfully.");
         Pause();
     }
-
+    
 
     private void DeactivateMember()
     {
-        Header("Deactivate Member");
-        string name;
+        Header("Deactivate / Activate Member");
+        
+        int idnumber;
         do
         {
-            Console.Write("Member name: ");
-            name = Console.ReadLine();
+            Console.Write("Member ID Number: ");
+            idnumber = int.Parse(Console.ReadLine());
             
-        } while (string.IsNullOrWhiteSpace(name));
+        } while (idnumber <= 0);
+    
 
-        var member = _library.FindeMemberByName(name);
+        var member = _library.FindeMemberByName(idnumber);
 
-        if (member != null)
+        if (member != null && member.IsActive == true)
         {
             _library.DeactivateUser(member);
             Console.WriteLine("\nMember deactivated successfully.");
+        }
+        else if (member != null && member.IsActive == false)
+        {
+            _library.ActivateUser(member);
+            Console.WriteLine("\nMember Activated successfully.");
         }
         else
         {

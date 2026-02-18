@@ -40,6 +40,17 @@ public class Library
             _context.Members.Update(member);
             _context.SaveChanges(); 
         }
+         public void ActivateUser(Member member)
+        {
+            member.IsActive = true;
+            _context.Members.Update(member);
+            _context.SaveChanges(); 
+        }
+        public Member? FindeMemberByName(int idNumber)
+        {
+            return _context.Members
+            .FirstOrDefault(m => m.IdNumber == idNumber);
+        }
         public Member? FindeMemberByName(string name)
         {
             var normalized = name.ToLower();
@@ -88,6 +99,12 @@ public class Library
         public void SaveChanges()
         {
             _context.SaveChanges();
+        }
+        public int RandomIdNumber()
+        {
+            Random random = new Random();
+            int idNumber = random.Next(00000, 99999);
+            return idNumber;
         }
 
 }
