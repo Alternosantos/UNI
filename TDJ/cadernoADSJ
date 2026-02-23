@@ -1,0 +1,40 @@
+dotnet new mgdesktopgl - novo projeto no mono game
+
+
+----------------------------------------------------------------------------------------------------------
+
+Trabalho pratico 1 = encontrar um jogo 2d no github copiar tudo para uma repo minha e escrever um read me sobre o jogo com o meu nome e numero e o link do repo original 
+
+trabalho pratico 2 = OBRIGATORIO SER DESENVOLVIDO EM MONOGAME de resto pode ser um jogo qualguer e 2d no read me tem der o meu nome e numero de aluno tem de ser mundo aberto ou semi aberto (o mapa tem de ser maior que a janela do monogame , tem de ter som colisoes de objetos , animaçoes, o player tem de poder fazer mais coisas sem ser andar , inimigos com movimento autonomos )
+
+
+Plano de jogo
+
+Nome: 
+    Light Souls;
+
+Categoria: 
+    Plataformer/RPG;
+
+Época: 
+    Passado Fantástico;
+
+Personagens:
+    Guerreiro desconhecido(Player)
+    Boss(Lucifer)
+    Anjos
+    Escadas
+    Chests
+    Armas
+
+Cenário: 
+    Catacumbas; 
+
+História: 
+    Um gurreiro que teve um passado trágico ainda não sabendo o que se passa, procura descobrir respostas para as suas perguntas;
+
+Regras:
+O jogador pode se mover em duas direções(esquerda, e direita), pode também saltar e atacar com a sua arma.
+O jogador terá 5 vidas.
+Os inimigos a cada ataque retirarão 1 vida.
+O jogador precisa finalizar um boss para completar uma fase.
