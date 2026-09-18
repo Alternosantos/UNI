@@ -1,3 +1,53 @@
 Hardware : partes físicas da maquina 
 Software : conjunto de instruções e programas que fazem com que o computador execute trabalho util, servindo de interação com o utilizador 
 
+Estrutura Geral do Computador:     
+    
+    Processador (CPU): 
+        E como o "cerebro" do computador ; 
+        Contem circuitos q«de controlo para a busca e execuçao de instruções, uma unidade aritmetica e logica para manipulçao de dados 
+            e registos para armazenamento do estado do processador e de pequenas quantidades de dados ;
+        Contem tambem circuitos de inteface para controlo e a comunicaçao com a memoria e os dispositivos de Input / Output ;
+
+    Memoria:
+        Armazena tanto dados como instruções ;
+        Consiste num certo numero de localizações em que cada uma armazena uma quandtidade de b-bits ;
+        Associada a essa localizaçao na memoria existe um numero binario chamado de endereço ;
+        Se existirem n localizaçoes entao os endereços estao distribuidos entre 0 e n-1 ;
+
+    Dispositivos de Input / Output:
+        Tem como finalidade permitir a comunicaçao com o computador ;
+        Podem ser terminais, impressoras, dispositivos de comuniçacao, atuadores mecanicos, dispositivos de armazenamento (discos);
+        O processador le e escreve informaçao de e para os perifericos atraves de intruçoes intituladas de I/O 
+
+
+
+Primeira geraçao de computadores :
+    Valvulas ;
+    Linguagem maquina aka binario ;
+
+Segunda geraçao de computadores :
+    Transistores ;
+    Linguaggens de """alto nivel""" (Assembly, COBOL, FORTRAN );
+    Memorias de nucleo magnetico ;
+    Perifericos :
+        Larc;
+        IBM 1401;
+
+Terceira Geraçaoi de computador :
+    Circuitos integrados ;
+    Linguagens como o Basic e o SIMULA ;
+    Sistemas Operativos (ex : UNIX) ;
+    Interligaçao de computadores ;
+        Exemplos computadores :
+            IBM 360 ;
+            CDC 6600 ;
+
+Quarta Geraçao de computadores :
+    Integraçao em larga escala ;
+    Computador pessoal ;
+    Computador pessoal ;
+    Internet Globalizada ;
+
+    
+
