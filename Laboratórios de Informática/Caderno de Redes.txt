@@ -1,0 +1,3 @@
+Hardware : partes físicas da maquina 
+Software : conjunto de instruções e programas que fazem com que o computador execute trabalho util, servindo de interação com o utilizador 
+
