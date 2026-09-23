@@ -1,0 +1,96 @@
+Jose Nunes
+invunes@ipca.pt
+
+Teste 1: 4 novembro 
+Teste 2: 16 dezembro 
+Trabalho pratico: 23 dezembro 23:59
+Defesas: 4 6 e 11 janeiro 
+
+Hosts == End Points onde a comunicaçao começa ou onde se destina 
+
+cada placa de rede tem um mac address unico 
+
+swicth so reconhece mac address 
+routers funcionam por ips 
+DHCP servidor que fornece END.IP
+
+ARQUITETURAS DE REDE 
+
+define um sistema no qual existem dois papeis distintos desempenhados pelos dispositivos :
+o servidor cuja funçao e fornecer serviços / funcionalidades a rede, e os clientes, que requesitam esses serviços ao servidor  
+
+
+Rede Peer-to-Peer 
+
+Os dispositivos comportam-se como iguais entre si, isto é, tanto podem ser clientes ao solicitar recursos a ... 
+
+
+
+TOPOLOGIAS DE Rede
+
+
+Ponto a Ponto 
+
+    Maquina1-----------------Maquina2
+
+Barramento(Bus)
+
+                Maquina1                     Maquina2             Maquina3             Maquina4
+T------------------|-------------------------|----------------------|------------------|-------------------T
+
+Todos os tipos estao ligados ao mesmo meio ;
+Comunicaçao e feita por broadcast um dispositivo envia uma mensagem para o meio todos os restantes recebem e ignoram, exceto o destinatario;
+Facil de instalar mas limitada no numero de nodos da rede, pois todos necessitam de aceder ao mesmo meio para comunicar ;
+    
+Anel
+
+Todos os dispositivos estao ligados a so 2 visinhos na rede
+O token sincroniza o acesso ao meio, dispositivos so colocam dados na rede quando recebem um Token
+Perda de tokens ...
+
+Estrela
+
+Todos os dispositivos estao ligados por cabos independentes a um unico dispositivo concentrador : HUB
+Falha de um dipositivo nao interfere com os resto do sistema 
+Existe um ponto unico de faha que e o concentrador 
+Porque existem canais individuas para cada dispositivo e possivel aumentar a largura de banda 
+
+
+Wireless Ad-Hoc
+
+E estabelecido quando dois ou mais dipositivos com emissores/recetores wireles estao ao alcance uns dos outros 
+Nao ha controlo centralizado 
+Enviam ondas de radio de um para os outro e ambos reconhecem a sua existencia para comunicar 
+
+Wireless Multiponto 
+
+Comunicam atraves de um AP(Access Point)  
+O Access Point tambem faz ligacao entre a rede sem fios e a rede com fios: 
+ Tambem conhecidas como BSS(Basic Service Set) - Apenas 1 AP(Access Point) e ESS(Estended Service Set) mais que um AP
+
+
+LAN == Local Area Network
+
+    Cobre areas pequenas (desde metros ate kilometos, dependendo da tecnhologia) 
+    Tipicamente apresenta maior largura de bamda e menos taxa de erros~
+    gerida pela mesma intituiçao (privada ou )
+    Baseada em tecnhologia de comunicaçao broadcast(Ethernet), apesar de actualmente se usar redes de comutaçao (Switched Ethernet)
+
+    PAN (Personal Area Network)~
+    Redes de Area Pessoal sao redesnque utytiliza de tecnhologia de comunicaçao sem fio para interligar computadores 
+
+
+    SAN (Storage Area Network)
+
+    Destinam se à interligaçao de grandes computadores e dipositivos de are,azenamento de massa , tambem numa area relativamnte pequena 
+
+    MAN (Metropolitan Area Network)
+    Sao normalmente utu«ilizadas para interligar redes locais situadas em diversos pontos de uma cidade 
+
+
+WAN == Wide Area Network 
+
+    Cobre uma area geografica alargada a patir das dezenas de kilometros
+    Atravessa meios de comunnicaçao publicos 
+    Usa circuitos disponibilizados por um fornecedor
+    Conciste num conjunto de nodos(routers) de comutaçao
